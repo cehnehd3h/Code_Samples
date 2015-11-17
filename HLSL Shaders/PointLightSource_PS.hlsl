@@ -21,8 +21,8 @@ Texture2D SpecPowTexture       : register(t3);
 cbuffer PointLightBuffer : register(b3)
 {
     float3 lightPos         : packoffset(c0);
-    float radius              : packoffset(c0.w);
-    float3 diffuseColor   : packoffset(c1);
+    float radius            : packoffset(c0.w);
+    float3 diffuseColor     : packoffset(c1);
     float intensity         : packoffset(c1.w);
 }
  
